@@ -1,0 +1,13 @@
+# The Docker build only needs go.mod and the *.go sources (see COPY in Dockerfile).
+# Ignore everything else to keep the build context minimal and reproducible.
+.git
+.gitignore
+.claude/
+meow-server*
+README.md
+README.zh.md
+Makefile
+*.md
+*.test
+*.out
+.env

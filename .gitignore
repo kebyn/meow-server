@@ -1,0 +1,19 @@
+# Built binary & reproducibility-check artifacts
+/meow-server
+*.repro1
+*.repro2
+
+# Test / coverage artifacts
+*.test
+*.out
+*.prof
+
+# Editor / OS
+.DS_Store
+*.swp
+
+# Local environment
+.env
+
+# Claude Code local state
+.claude/
